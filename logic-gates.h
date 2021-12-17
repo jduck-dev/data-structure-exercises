@@ -11,7 +11,7 @@ struct _logicGate {
     int r;
 };
 
-void logic_gates_example();
+void logicGatesExample();
 void printSignal(LogicGate);
 LogicGate signal(int);
 LogicGate and(LogicGate, LogicGate);

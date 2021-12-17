@@ -24,7 +24,7 @@ void printSignal(LogicGate s)
     printf("r: %d\n", s.r);
 }
 
-void logic_gates_example()
+void logicGatesExample()
 {
     LogicGate s1 = signal(1);
     LogicGate s2 = signal(1);
