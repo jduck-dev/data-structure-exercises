@@ -16,5 +16,7 @@ void printSignal(LogicGate);
 LogicGate signal(int);
 LogicGate and(LogicGate, LogicGate);
 LogicGate or(LogicGate, LogicGate);
+LogicGate not(LogicGate);
+LogicGate nand(LogicGate, LogicGate);
 
 #endif
