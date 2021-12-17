@@ -1,14 +1,14 @@
 #include "ackerman.h"
 
 void ackerman_example(){
-    printf("Ack(4,3) = %d\n", ackerman(4,3));
+    printf("Ack(4,3) = %d\n", ackerman(3,4));
 }
 
 int ackerman(int m, int n)
 {
     if (m == 0)
     {
-        printf("Ack(%d,%d) = %d + 1\n", m, n, n);
+        printf("Ack(%d,%d) = %d + 1 = %d\n", m, n, n, n + 1);
         return n + 1;
     }
     if (m > 0 && n == 0)
