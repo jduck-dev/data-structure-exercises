@@ -13,7 +13,7 @@ struct _logicGate {
 
 void logicGatesExample();
 void printSignal(LogicGate);
-LogicGate signal(int);
+LogicGate inputSignal(int);
 LogicGate and(LogicGate, LogicGate);
 LogicGate or(LogicGate, LogicGate);
 LogicGate not(LogicGate);
